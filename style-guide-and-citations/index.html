@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Style Guide for IAT339 Project 1">
+        <title> Project 1 | Style Guide </title>
+        <link rel="shortcut icon" href="img/victor-luna.png">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css"> 
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,300,800' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+        <nav class="navbar navbar-default navbar-fixed-top" id="slide-nav">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-toggle"> 
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-title">MENU</span>
+                    </a>
+                    <a class="navbar-brand" href="../index.html">PROJECT 2</a>
+                </div>
+
+                <div id="navigation">
+                    <div id="slidemenu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="index.html">STYLE GUIDE</a>
+                            </li>
+                            <li>
+                                <a href="citations.html">CITATIONS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <h1 class="title"> Style Guide </h1>
+        <section id="sub-navigation">
+            <h2> On this page: </h2>
+            <ul>
+                <li> <a href="#interactive-elements" class="page-scroll">Interactive Elements</a> </li>
+                <li> <a href="#text-elements" class="page-scroll">Text Elements</a> </li>
+                <li> <a href="#combined-elements" class="page-scroll">Combined Elements</a> </li>
+            </ul>
+        </section>
+
+         <!-- INTERACTIVE ELEMENTS SECTION // -->
+        <section id="interactive-elements">
+
+            <!-- Default Button styling section -->
+            <section>
+                <h2>Navigation Button</h2>
+                <h3>CSS selector:</h3>
+                <p>.button-nav</p>
+                <h3>Sample code:</h3>
+                <code>&lt;a href="#" class="button-nav"&gt;HOME&lt;/a&gt;</code>
+                <h3>Rendered element:</h3>
+                <a class="button-nav" href="#">HOME</a>
+            </section>
+
+            <section>
+                <h2>In-text link</h2>
+                <h3>CSS selector:</h3>
+                <p>.in-text-link</p>
+                <h3>Sample code:</h3>
+                <code>&lt;a href="#" class="in-text-link"&gt;Click here for more details.&lt;/a&gt;</code>
+                <h3>Rendered element:</h3>
+                <a href="" class="in-text-link">Click here for more details.</a>
+            </section>
+
+            <section>
+                <h2>Submit/Reset Buttons</h2>
+                <h3>CSS selector:</h3>
+                <p>.button-default</p>
+                <h3>Sample code:</h3>
+                <code>&lt;button class="button-default"&gt;Submit Button&lt;/button&gt;<br>
+                &lt;button class="button-default"&gt;Reset Button&lt;/button&gt;</code>
+                <h3>Rendered element:</h3>
+                <button class="button-default">Submit Button</button><button class="button-default">Reset Button</button>
+            </section>
+
+            <section>
+                <h2>Text Input Field</h2>
+                <h3>CSS selector:</h3>
+                <p>.input-field</p>
+                <h3>Sample code:</h3>
+                <code>&lt;input name="input" type="text" class="input-field" placeholder="Input Field"&gt;</code>
+                <h3>Rendered element:</h3>
+                <input type="text" class="input-field" placeholder="Input Field" />
+            </section>
+
+            <section>
+                <h2>Text Area Field</h2>
+                <h3>CSS selector:</h3>
+                <p>.textarea-field</p>
+                <h3>Sample code:</h3>
+                <code>&lt;textarea name="textarea" class="textarea-field" placeholder="Textarea Field"&gt;&lt;textarea&gt;</code>
+                <h3>Rendered element:</h3>
+                <textarea class="textarea-field" id="comment" placeholder="Textarea Field"></textarea>
+            </section>
+            
+            <section>
+                <h2>Search Field</h2>
+                <h3>CSS selector:</h3>
+                <p>.search-field</p>
+                <h3>Sample code:</h3>
+                <code>&lt;input name="search" type="text" class="search-field" placeholder="Search Field"&gt;</code>
+                <h3>Rendered element:</h3>
+                <input class="search-field" type="text" name="search" placeholder="Search field">
+            </section>
+        </section>
+        <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+        <!-- TEXT ELEMENTS SECTION // -->
+        <section id="text-elements">
+            <section>
+                <h2>Heading 1</h2>
+                <h3>CSS selector:</h3>
+                <p>.header-1</p>
+                <h3>Sample code:</h3>
+                <code>&lt;h1 class="header-1"&gt;Header 1&lt;/h1&gt;</code>
+                <h3>Rendered element:</h3>
+                <h1 class="header-1">Header 1</h1>
+            </section>
+            
+            <section>
+                <h2>Heading 2</h2>
+                <h3>CSS selector:</h3>
+                <p>.header-2</p>
+                <h3>Sample code:</h3>
+                <code>&lt;h2 class="header-2"&gt;Header 2&lt;/h2&gt;</code>
+                <h3>Rendered element:</h3>
+                <h2 class="header-2">Header 2</h2>
+            </section>
+            
+            <section>
+                <h2>Heading 3</h2>
+                <h3>CSS selector:</h3>
+                <p>.header-3</p>
+                <h3>Sample code:</h3>
+                <code>&lt;h3 class="header-3"&gt;Header 3&lt;/h3&gt;</code>
+                <h3>Rendered element:</h3>
+                <h3 class="header-3">Header 3</h3>
+            </section>
+
+            <section>
+                <h2>Paragraphs</h2>
+                <h3>CSS selector:</h3>
+                <p>p</p>
+                <h3>Sample code:</h3>
+                <code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code>
+                <h3>Rendered element:</h3>
+                <p class="p">This is a paragraph.</p>
+            </section>
+
+            <section>
+                <h2>Bulleted Lists</h2>
+                <h3>CSS selector:</h3>
+                <p>ul li</p>
+                <h3>Sample code:</h3>
+                <code>&lt;ul&gt;<br><span class="indentation"></span>&lt;li&gt;This is the first item.&lt;/li&gt;<br>
+                <span class="indentation"></span>&lt;li&gt;This is the second item.&lt;/li&gt;<br>
+                <span class="indentation"></span>&lt;li&gt;This is the third item.&lt;/li&gt;<br>&lt;/ul&gt;</code>
+                <h3>Rendered element:</h3>
+                <ul class="ul">
+                    <li>This is the first item.</li>
+                    <li>This is the second item.</li>
+                    <li>This is the third item.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Numbered Lists</h2>
+                <h3>CSS selector:</h3>
+                <p>ol li</p>
+                <h3>Sample code:</h3>
+                <code>&lt;ol&gt;<br><span class="indentation"></span>&lt;li&gt;This is the first item.&lt;/li&gt;<br>
+                <span class="indentation"></span>&lt;li&gt;This is the second item.&lt;/li&gt;<br>
+                <span class="indentation"></span>&lt;li&gt;This is the third item.&lt;/li&gt;<br>&lt;/ol&gt;</code>
+                <h3>Rendered element:</h3>
+                <ol class="ol">
+                    <li>This is the first item.</li>
+                    <li>This is the second item.</li>
+                    <li>This is the third item.</li>
+                </ol>
+            </section>
+        </section>
+        <!-- // TEXT ELEMENTS SECTION -->
+
+        <!-- COMBINED ELEMENTS SECTION // -->
+        <section id="combined-elements">
+            <section>
+                <h2>Main Navigation</h2>
+                <h3>CSS selector:</h3>
+                <p>.main-navigation</p>
+                <h3>Sample code:</h3>
+                <code>
+                    &lt;!-- Includes mobile navigation --&gt;<br>
+                    &lt;nav class="main-navigation"&gt;<br>
+                    <span class="indentation"></span>&lt;ul&gt;<br>
+                    <span class="indentation"></span><span class="indentation"></span>&lt;li&gt;&lt;a href="#"&gt; &lt;img class="logo" src="img/placeholder.png" alt="Image description"&gt; &lt;/a&gt;&lt;/li&gt;<br>
+                    <span class="indentation"></span><span class="indentation"></span>&lt;li&gt;&lt;a href="#" class="button-nav"&gt; HOME &lt;/a&gt;&lt;/li&gt;<br>
+                    <span class="indentation"></span><span class="indentation"></span>&lt;li&gt;&lt;a href="#" class="button-nav"&gt; PRODUCTS &lt;/a&gt;&lt;/li&gt;<br>
+                    <span class="indentation"></span><span class="indentation"></span>&lt;li&gt;&lt;a href="#" class="button-nav"&gt; ABOUT &lt;/a&gt;&lt;/li&gt;<br>
+                    <span class="indentation"></span><span class="indentation"></span>&lt;li&gt;&lt;a href="#" class="button-nav"&gt; CONTACT &lt;/a&gt;&lt;/li&gt;<br>
+                    <span class="indentation"></span><span class="indentation"></span>&lt;li&gt;&lt;a href="#" class="button-nav"&gt; CART(0) &lt;/a&gt;&lt;/li&gt;<br>
+                    <span class="indentation"></span><span class="indentation"></span>&lt;li class="mobile-menu"&gt;&lt;a onclick="triggerMobileNavigation()"&gt; MENU &lt;/a&gt;&lt;/li&gt;<br>
+                    <span class="indentation"></span><span class="indentation"></span>&lt;li&gt;&lt;a onclick="triggerMobileNavigation()"&gt; CLOSE NAVIGATION &lt;/a&gt;&lt;/li&gt;<br>
+                    <span class="indentation"></span>&lt;/ul&gt;<br>
+                    <span class="indentation"></span>&lt;/nav&gt;
+                </code>
+                <h3>Rendered element:</h3>
+                <nav class="main-navigation">
+                    <ul>
+                        <li><a href="#"><img class="logo" src="img/placeholder.png" alt="Grey box with cross in the middle showing that it is a placeholder image"></a></li>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">PRODUCTS</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#">CART(0)</a></li>
+                        <li class="mobile-menu"><a onclick="triggerMobileNavigation()">MENU</a></li>
+                        <li><a onclick="triggerMobileNavigation()">CLOSE NAVIGATION</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section>
+                <h2>Product Listing</h2>
+                <h3>CSS selector:</h3>
+                <p>.product-listing-image </p>
+                <h3>Sample code:</h3>
+                <code>
+                &lt;img class="product-listing-image" src="img/placeholder.png" alt="Image description"&gt;<br>
+                &lt;h2 class="header-2"&gt;Pork Belly&lt;/h2&gt;<br>
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.&lt;/p&gt;<br>
+                &lt;button class="button-default"&gt;View Product&lt;/button&gt;
+                </code>
+                <h3>Rendered element:</h3>
+                <img class="product-listing-image" src="img/placeholder.png" alt="Grey box with cross in the middle showing that it is a placeholder image">
+                <h2 class="header-2">Pork Belly</h2>
+                <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                <button class="button-default">View Product</button>
+            </section>
+
+            <section>
+                <h2>Grid Structure</h2>
+                <h3>CSS selector:</h3>
+                <p>.grid </p>
+                <h3>Sample code:</h3>
+                <code>
+                    &lt;div class="grid"&gt;<br>
+                    <span class="indentation"></span>&lt;div class="col-1of2"&gt;<br>
+                    <span class="indentation"></span><span class="indentation"></span>&lt;p&gt; Column 1 50% &lt;/p&gt;<br>
+                    <span class="indentation"></span>&lt;/div&gt;<br>
+                    <span class="indentation"></span>&lt;div class="col-1of2"&gt;<br>
+                    <span class="indentation"></span><span class="indentation"></span>&lt;p&gt; Column 2 50% &lt;/p&gt;<br>
+                    <span class="indentation"></span>&lt;/div&gt;<br>
+                    &lt;/div&gt;
+                </code>
+                <h3>Rendered element:</h3>
+                <div class="grid">
+                    <div class="col-1of2">
+                        <p> Column 1 50% </p>
+                    </div>
+                    <div class="col-1of2">
+                        <p> Column 2 50% </p>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+        <!-- // COMBINED ELEMENTS SECTION -->
+
+        <footer>
+            <a class="page-scroll" href="#page-top"><div class="round-button-circle round-button"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></div></a>
+
+            <p><strong>VICTOR LUNA</strong> <br>PROJECT 2</p> 
+            <p>© 2016 Victor Luna - All Rights Reserved</p>
+        </footer>
+        
+        <script src="lib/jquery-2.2.3.min.js"></script>
+        <script src="lib/bootstrap.js"></script>
+        <script src="lib/bootstrap.min.js"></script>
+        <script src="lib/jquery.easing.min.js"></script>
+        <script src='js/script.js'></script>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+.grid:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+*, *.after, *.before {
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+[class^='col-'] {
+	float: left;
+	padding: 0;
+	text-align: center;
+}
+
+.col-1of2 {
+	width: 50%;
+}
+
+.col-1of3 {
+	width: 33.3%;
+}
+
+.col-2of3 {
+	width: 66.7%;
+}
+
+.col-1of5 {
+	width: 20%;
+}

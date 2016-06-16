@@ -85,20 +85,23 @@ nav ul {
     z-index: 99999;
 }
 
-ul li {
+nav ul li {
     float: left;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
 }
 
-ul li:not(:first-child) {
+nav ul li:not(:first-child) {
     line-height: 2.5em;
 }
 
-ul li:nth-child(7) {
+nav ul li:nth-child(7) {
     float: right;
 }
 
-ul li a {
+nav ul li a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -106,17 +109,17 @@ ul li a {
     text-decoration: none;
     font-size: 1em;
 }
-ul li img {
+nav ul li img {
     width: 4em;
     height: auto;
 }
 
-ul li:hover {
+nav ul li:hover {
     background-color: #b03456;
     transition: 0.5s;
 }
 
-ul li.menu-icon {
+nav ul li.menu-icon {
     display: none;
 }
 
@@ -167,8 +170,8 @@ ul li.menu-icon {
 ================== PRODUCT ===================
 ==============================================
 */
-
 #products {
+    padding-top: 2em;
     width: 80%;
     margin: 0 10%;
 }
@@ -210,6 +213,7 @@ ul li.menu-icon {
     border-radius: 7px;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -224,10 +228,46 @@ ul li.menu-icon {
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
+/*
+==============================================
+=================== ABOUT ====================
+==============================================
+*/
+#about {
+    padding-top: 2em;
+    width: 70%;
+    margin: 0 15%;
+}
+
+#about h3 {
+    padding-top: 1em;
+    text-align: center;
+}
 
 /*
 ==============================================
-================= NAVIGATION =================
+================== RECIPES ===================
+==============================================
+*/
+#recipes {
+    padding-top: 2em;
+    width: 80%;
+    margin: 0 10%;
+}
+
+#recipes h2 {
+    font-size: 2.3em;
+    text-align: center;
+}
+
+#recipes p {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/*
+==============================================
+================== CONTACT ===================
 ==============================================
 */
 #contact {
@@ -399,9 +439,14 @@ footer p {
     }
 }
 
-@media screen and (max-width:52em) {
+@media screen and (max-width:53.5em) {
     .landing-page-img {
         height: 350px;
+    }
+
+    #about {
+        width: 90%;
+        margin: 0 5%;
     }
 
     #products {
@@ -415,33 +460,45 @@ footer p {
     }
 }
 
+@media screen and (max-width: 48.5em) {
+    .input-field {
+        width: 100%;
+        margin: .2em 0;
+    }
+
+    .textarea-field {
+        width: 100%;
+        margin: .2em 0;
+    }
+}
+
 @media screen and (max-width:42.5em) {
-    ul li:not(:first-child) {
+    nav ul li:not(:first-child) {
         display: none;
     }
 
-    ul li.menu-icon {
+    nav ul li.menu-icon {
         float: right;
         display: inline-block;
     }
 
-    ul.navbar.responsive {
+    nav ul.navbar.responsive {
         position: absolute;
         height: auto;
     }
 
-    ul.navbar.responsive li.menu-icon {
+    nav ul.navbar.responsive li.menu-icon {
         position: absolute;
         right: 0;
         top: 0;
     }
 
-    ul.navbar.responsive li {
+    nav ul.navbar.responsive li {
         float: none;
         display: inline;
     }
 
-    ul.navbar.responsive li a {
+    nav ul.navbar.responsive li a {
         display: block;
         text-align: center;
     }

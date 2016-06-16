@@ -3,8 +3,8 @@
 	$description = "Recipe page for Vanocouver Meets where you can see recipes for the meat the company sells.";
 	include ("includes/header.html");
 ?>
-<h1> Recipes </h1>
-<section id="products">
+<section id="recipes">
+	<h1> Recipes </h1>
 	<div class="grid">
 		<div class="col-1of4">
 			<img class="product-listing-image" src="img/placeholder-home-image.png" alt="Image description">

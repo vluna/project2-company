@@ -1,8 +1,79 @@
 body {
     margin: 0;
-    font-family: "Lato", Arial, Verdana, Serif;
+    font-family: "Lato", Verdana, Serif;
 }
 
+
+h1 {
+    text-align: center;
+    font-family: 'Lato', serif;
+    font-weight: 800;
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Lato', serif;
+    font-weight: 800;
+    font-size: 2.6em;
+    margin: 0;
+}
+
+h3 {
+    text-align: left;
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    font-size: 2.2em;
+    margin: 0;
+}
+
+p {
+    text-align: left;
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    margin: 0;
+}
+
+.button-default {
+    width: 20%;
+    border: #742238 solid 2px;
+    cursor: pointer;
+    background-color: white;
+    color: #2f3540;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.button-default:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #742238;
+    color: white;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+/*
+==============================================
+================= NAVIGATION =================
+==============================================
+*/
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -11,6 +82,7 @@ nav ul {
     width: 100%;
     height: 4.5em;
     background-color: #742238;
+    z-index: 99999;
 }
 
 ul li {
@@ -50,12 +122,300 @@ ul li.menu-icon {
 
 /*
 ==============================================
-=============== RESPONSIVENESS ===============
+==================== HOME ====================
+==============================================
+*/
+.landing-page-img {
+    width: 100%;
+    height: auto;
+    top: 0;
+}
+
+.landing-page-logo {
+    width: 10em;
+    height: auto;
+    position: absolute;
+    left: calc(50% - 5em);
+    top: 5em;
+}
+
+.landing-page-header {
+    position: absolute;
+    width: 99%;
+    margin-right: .5%;
+    margin-left: .5%;
+    top: 3.25em;
+}
+
+.landing-page-quote {
+    position: absolute;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    top: 10em;
+    text-align: center;
+    font-size: 1.35em;
+}
+
+#home {
+    width: 70%;
+    margin: 0 15%;
+}
+
+/*
+==============================================
+================== PRODUCT ===================
 ==============================================
 */
 
-@media screen and (max-width:42.5em) {
+#products {
+    width: 80%;
+    margin: 0 10%;
+}
 
+#products h2 {
+    font-size: 2.3em;
+    text-align: center;
+}
+
+#products p {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.product-listing-image {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2.5em;
+    width: 90%;
+    height: 12em;
+}
+
+.button-view-product {
+    width: 80%;
+    margin: 1em 10%;
+    border: #2f3540 solid 2px;
+    cursor: pointer;
+    background-color: white;
+    color: #2f3540;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.button-view-product:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #2f3540;
+    color: white;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+/*
+==============================================
+================= NAVIGATION =================
+==============================================
+*/
+#contact {
+    padding-top: 2em;
+    width: 70%;
+    margin: 0 15%;
+}
+
+.input-field {
+    color: #6b6b6b;
+    font-weight:500;
+    font-size: 1em;
+    background-color: #ededed;
+    padding: .7em;
+    margin-top: .7em;
+    width: 95%;
+    margin-right: 5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border: .2em solid white;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.input-field:focus, .input-field:hover {
+    background-color: #fff;
+    box-shadow: none;
+    border: .2em solid #2f3540;
+    color: #6b6b6b;
+    outline: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.textarea-field {
+    color: #6b6b6b;
+    font-weight:500;
+    font-size: 1em;
+    background-color: #ededed;
+    padding: .7em;
+    width: 95%;
+    margin-top: .7em;
+    margin-right: 5%;
+    height: 6em;
+    resize:vertical;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border: .2em solid white;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.textarea-field:focus, .textarea-field:hover {
+    background-color: #fff;
+    box-shadow: none;
+    border: .2em solid #2f3540;
+    color: #6b6b6b;
+    outline: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-submit {
+    width: 70%;
+    margin: 1em 10%;
+    border: #2f3540 solid 2px;
+    cursor: pointer;
+    background-color: white;
+    color: #2f3540;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.button-submit:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #2f3540;
+    color: white;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.contact-information {
+    text-align: left;
+    margin-left: 1.4em;
+}
+
+.contact-information h3 {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: black;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    padding-bottom: 3px;
+    margin-top: .5em;
+}
+
+.contact-icon-title {
+    vertical-align: .2em;
+    margin-left: 5px;
+}
+
+.contact-icon-title-email {
+    margin-left: 5px;
+}
+
+.contact-information-description {
+    font-size: 1.1em;
+    color: black;
+}
+
+
+/*
+==============================================
+================= NAVIGATION =================
+==============================================
+*/
+footer {
+    margin-top: 5em;
+    padding-top: 1em;
+    background: #f2f2f2;
+    width: 100%;
+    height: 10em;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+/*
+==============================================
+=============== RESPONSIVENESS ===============
+==============================================
+*/
+@media screen and (max-width:58em) {
+    .landing-page-quote {
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width:52em) {
+    .landing-page-img {
+        height: 350px;
+    }
+
+    #products {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    #contact {
+        width: 90%;
+        margin: 0 5%;
+    }
+}
+
+@media screen and (max-width:42.5em) {
     ul li:not(:first-child) {
         display: none;
     }
@@ -66,7 +426,7 @@ ul li.menu-icon {
     }
 
     ul.navbar.responsive {
-        position: relative;
+        position: absolute;
         height: auto;
     }
 
@@ -85,4 +445,8 @@ ul li.menu-icon {
         display: block;
         text-align: center;
     }
+}
+
+@media screen and (max-width: 20em) {
+
 }

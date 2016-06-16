@@ -17,3 +17,30 @@
 	padding: 0;
 	text-align: center;
 }
+
+.col-1of4 {
+	width: 25%
+}
+
+.col-1of2 {
+	width: 50%
+}
+
+
+@media screen and (max-width: 62.5em) {
+	.col-1of4 {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 48.5em) {
+	.col-1of2 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 37.5em) {
+	.col-1of4 {
+		width: 100%;
+	}
+}

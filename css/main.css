@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: "Lato", Arial, Verdana, Serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 4.5em;
+    background-color: #742238;
+}
+
+ul li {
+    float: left;
+    transition: 0.5s;
+}
+
+ul li:not(:first-child) {
+    line-height: 2.5em;
+}
+
+ul li:nth-child(7) {
+    float: right;
+}
+
+ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1em;
+}
+ul li img {
+    width: 4em;
+    height: auto;
+}
+
+ul li:hover {
+    background-color: #b03456;
+    transition: 0.5s;
+}
+
+ul li.menu-icon {
+    display: none;
+}
+
+/*
+==============================================
+=============== RESPONSIVENESS ===============
+==============================================
+*/
+
+@media screen and (max-width:42.5em) {
+
+    ul li:not(:first-child) {
+        display: none;
+    }
+
+    ul li.menu-icon {
+        float: right;
+        display: inline-block;
+    }
+
+    ul.navbar.responsive {
+        position: relative;
+        height: auto;
+    }
+
+    ul.navbar.responsive li.menu-icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    ul.navbar.responsive li {
+        float: none;
+        display: inline;
+    }
+
+    ul.navbar.responsive li a {
+        display: block;
+        text-align: center;
+    }
+}

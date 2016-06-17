@@ -18,14 +18,41 @@
 	text-align: center;
 }
 
-.col-1of4 {
-	width: 25%
+.col-1of1 {
+	width: 100%;
 }
 
 .col-1of2 {
-	width: 50%
+	width: 50%;
 }
 
+.col-1of3 {
+	width: 33.3%;
+}
+
+.col-1of4 {
+	width: 25%;
+}
+
+.col-1of5 {
+	width: 20%;
+}
+
+.col-4of5 {
+	width: 80%;
+}
+
+.col-special-1of3 {
+	width: 12.5em;
+}
+
+.col-special-2of3 {
+	width: calc(100% - 12.5em - 20em);
+}
+
+.col-special-3of3 {
+	width: 20em;
+}
 
 @media screen and (max-width: 62.5em) {
 	.col-1of4 {

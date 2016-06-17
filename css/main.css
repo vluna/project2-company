@@ -8,7 +8,7 @@ h1 {
     text-align: center;
     font-family: 'Lato', serif;
     font-weight: 800;
-    font-size: 3em;
+    font-size: 2.5em;
     margin: 0;
 }
 
@@ -16,7 +16,7 @@ h2 {
     text-align: left;
     font-family: 'Lato', serif;
     font-weight: 800;
-    font-size: 2.6em;
+    font-size: 1.7em;
     margin: 0;
 }
 
@@ -24,7 +24,7 @@ h3 {
     text-align: left;
     font-family: 'Lato', serif;
     font-weight: 400;
-    font-size: 2.2em;
+    font-size: 1.3em;
     margin: 0;
 }
 
@@ -32,8 +32,21 @@ p {
     text-align: left;
     font-family: 'Lato', serif;
     font-weight: 400;
-    font-size: 1.1em;
+    font-size: 1em;
     margin: 0;
+}
+
+a {
+    color: #c29c6e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #876d4d;
+}
+
+a:active, a:focus {
+    color: #c29c6e;
 }
 
 .button-default {
@@ -42,7 +55,7 @@ p {
     cursor: pointer;
     background-color: white;
     color: #2f3540;
-    font-size: 14px;
+    font-size: 1em;
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 500;
@@ -109,6 +122,11 @@ nav ul li a {
     text-decoration: none;
     font-size: 1em;
 }
+
+nav ul li a:hover {
+    color: white;
+}
+
 nav ul li img {
     width: 4em;
     height: auto;
@@ -177,7 +195,6 @@ nav ul li.menu-icon {
 }
 
 #products h2 {
-    font-size: 2.3em;
     text-align: center;
 }
 
@@ -201,7 +218,7 @@ nav ul li.menu-icon {
     cursor: pointer;
     background-color: white;
     color: #2f3540;
-    font-size: 14px;
+    font-size: 1em;
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 500;
@@ -228,6 +245,51 @@ nav ul li.menu-icon {
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
+
+/*
+==============================================
+============== PRODUCT DETAIL ================
+==============================================
+*/
+#product-detail {
+    width: 90%;
+    margin: 0 5%;
+    padding-top: 2em;
+}
+
+.product-detail-image-preview {
+    width: 3.2em;
+    height: 3.2em;
+}
+
+.product-detail-image {
+    width: 100%;
+    height: auto;
+}
+
+.product-detail-content {
+    width: 100%;
+    padding: 0 1em;
+}
+
+.product-detail-content > p {
+    padding-bottom: 1em;
+}
+
+.product-price {
+    font-weight: 800;
+    text-align: right;
+}
+
+.order-product {
+    border: 2px solid gray;
+    padding: 1em;
+}
+
+.order-product:hover {
+    border: 2px solid #2f3540;
+}
+
 /*
 ==============================================
 =================== ABOUT ====================
@@ -239,10 +301,37 @@ nav ul li.menu-icon {
     margin: 0 15%;
 }
 
-#about h3 {
-    padding-top: 1em;
+.about-navbar {
     text-align: center;
 }
+
+#about h3 {
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+.about-navbar h3 {
+    margin: .1em 0;
+    padding: 0 .1em;
+    display: inline-block;
+}
+
+#about p {
+    padding-top: 1em;
+}
+
+
+/*
+==============================================
+=================== CART =====================
+==============================================
+*/
+#cart {
+    padding-top: 2em;
+    width: 70%;
+    margin: 0 15%;
+}
+
 
 /*
 ==============================================
@@ -256,7 +345,6 @@ nav ul li.menu-icon {
 }
 
 #recipes h2 {
-    font-size: 2.3em;
     text-align: center;
 }
 
@@ -384,7 +472,6 @@ nav ul li.menu-icon {
 }
 
 .contact-information h3 {
-    font-size: 1.2em;
     font-weight: 700;
     color: black;
     margin: 0 auto;
@@ -403,17 +490,17 @@ nav ul li.menu-icon {
 }
 
 .contact-information-description {
-    font-size: 1.1em;
     color: black;
 }
 
 
 /*
 ==============================================
-================= NAVIGATION =================
+=================== FOOTER ===================
 ==============================================
 */
 footer {
+    position: relative;
     margin-top: 5em;
     padding-top: 1em;
     background: #f2f2f2;
@@ -501,6 +588,13 @@ footer p {
     nav ul.navbar.responsive li a {
         display: block;
         text-align: center;
+    }
+
+    #about h3 {
+        padding: .5em;
+        margin: 0;
+        text-align: center;
+        display: block;
     }
 }
 

@@ -30,6 +30,10 @@
 	width: 33.3%;
 }
 
+.col-2of3 {
+	width: 66.6%;
+}
+
 .col-1of4 {
 	width: 25%;
 }

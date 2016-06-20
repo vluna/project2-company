@@ -302,25 +302,52 @@ nav ul li.menu-icon {
     margin: 0 15%;
 }
 
-.about-navbar {
-    text-align: center;
-}
-
-#about h3 {
-    text-align: center;
-    padding-top: 1.5em;
-}
-
-.about-navbar h3 {
-    margin: .1em 0;
-    padding: 0 .1em;
-    display: inline-block;
-}
-
 #about p {
     padding-top: 1em;
 }
 
+.about-navbar {
+    text-align: center;
+    list-style-type: none;
+    float: left;
+    width: 100%;
+    margin-top: 1em;
+    background: #742238;
+    color: white;
+    padding: 1em;
+}
+
+.about-navbar li {
+    display: inline;
+    padding: 1em;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    -mos-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.about-navbar li:hover {
+    background-color: #b03456;
+    -webkit-transition: 0.5s;
+    -mos-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#about h3 {
+    text-align: center;
+    padding-top: 4em;
+    font-weight: 700;
+}
+
+#about a {
+    color: white;
+}
+
+#about a:hover {
+    color: white;
+}
 
 /*
 ==============================================
@@ -593,6 +620,16 @@ footer {
 =============== RESPONSIVENESS ===============
 ==============================================
 */
+@media screen and (max-width:62.5em) {
+    .about-navbar {
+        padding: 1em .5em;
+    }
+
+    .about-navbar li {
+        padding: 1em .5em;
+    }
+}
+
 @media screen and (max-width:58em) {
     .landing-page-quote {
         width: 90%;
@@ -675,9 +712,17 @@ footer {
     }
 
     #about h3 {
-        padding: .5em;
+        padding: 0;
         margin: 0;
         text-align: center;
+        display: block;
+    }
+
+    .about-navbar {
+        padding: 0;
+    }
+
+    .about-navbar li {
         display: block;
     }
 }

@@ -5,14 +5,14 @@
 ?>
 <section id="about">
 	<h1> About </h1>
-	<div class="about-navbar">
-		<a href="#about-overview"><h3>Overview</h3></a>
-		<a href="#about-values"><h3>Values</h3></a>
-		<a href="#about-values"><h3>Producer</h3></a>
-		<a href="#about-facilities"><h3>Facilities</h3></a>
-		<a href="#about-Pork"><h3>Pork Attributes</h3></a>
-		<a href="#about-beef"><h3>Beef Attributes</h3></a>
-	</div>
+	<ul class="about-navbar">
+        <li id="show-overview">Overview</li>
+        <li id="show-values">Values</li>
+        <li id="show-producer">Producer</li>
+        <li id="show-facilities">Facilities</li>
+        <li id="show-pork">Pork Attributes</li>
+        <li id="show-beef">Beef Attributes</li>
+    </ul>
 
 	<div id="about-overview">
 		<h3>Overview</h3>

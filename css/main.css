@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: "Lato", Verdana, Serif;
+    word-wrap: break-word;
 }
 
 
@@ -147,39 +148,41 @@ nav ul li.menu-icon {
 ==================== HOME ====================
 ==============================================
 */
-.landing-page-img {
-    width: 100%;
+
+.intro-section {
+    background: url(../img/landing-image.png) no-repeat center center fixed;
     height: auto;
-    top: 0;
+    margin: 0 auto;
+    background-size: cover;
+    width: 100%;
+    padding-top: 1em;
 }
 
 .landing-page-logo {
     width: 10em;
     height: auto;
-    position: absolute;
-    left: calc(50% - 5em);
-    top: 5em;
+    margin-left: calc(50% - 5em);
 }
 
-.landing-page-header {
-    position: absolute;
+.intro-section h1 {
+    color: white;
     width: 99%;
     margin-right: .5%;
     margin-left: .5%;
-    top: 3.25em;
 }
 
-.landing-page-quote {
-    position: absolute;
+.intro-section p {
+    color: white;
     width: 70%;
     margin-right: 15%;
     margin-left: 15%;
-    top: 10em;
     text-align: center;
     font-size: 1.35em;
+    padding-bottom: 3em;
 }
 
 #home {
+    padding-top: 2em;
     width: 70%;
     margin: 0 15%;
 }
@@ -209,7 +212,7 @@ nav ul li.menu-icon {
     margin-left: 5%;
     margin-top: 2.5em;
     width: 90%;
-    height: 12em;
+    height: auto;
 }
 
 .button-view-product {
@@ -360,27 +363,6 @@ nav ul li.menu-icon {
     margin: 0 15%;
 }
 
-
-/*
-==============================================
-================== RECIPES ===================
-==============================================
-*/
-#recipes {
-    padding-top: 2em;
-    width: 80%;
-    margin: 0 10%;
-}
-
-#recipes h2 {
-    text-align: center;
-}
-
-#recipes p {
-    width: 90%;
-    margin: 0 5%;
-}
-
 /*
 ==============================================
 ================== CONTACT ===================
@@ -522,8 +504,10 @@ nav ul li.menu-icon {
     margin-left: 5px;
 }
 
-.contact-information-description {
+.information-description {
     color: black;
+    font-weight: 400 !important;
+    margin-top: .3em !important;
 }
 
 /*

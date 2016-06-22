@@ -12,6 +12,14 @@ $('#pork-belly-2').css("opacity", ".5");
 $('#pork-belly-3').css("opacity", ".5");
 $('#pork-belly-4').css("opacity", ".5");
 
+$('#show-pork-side-ribs-2').hide();
+$('#show-pork-side-ribs-3').hide();
+$('#show-pork-side-ribs-4').hide();
+
+$('#pork-side-ribs-2').css("opacity", ".5");
+$('#pork-side-ribs-3').css("opacity", ".5");
+$('#pork-side-ribs-4').css("opacity", ".5");
+
 function triggerMobileNav() {
 	document.getElementsByClassName("navbar")[0].classList.toggle("responsive");
 }
@@ -73,6 +81,54 @@ $('#pork-belly-4').click(function() {
 	$('#pork-belly-2').css("opacity", ".5");
 	$('#pork-belly-3').css("opacity", ".5");
 	$('#pork-belly-4').css("opacity", "1");
+});
+
+$('#pork-side-ribs-1').click(function() {
+	$('#show-pork-side-ribs-1').show();
+	$('#show-pork-side-ribs-2').hide();
+	$('#show-pork-side-ribs-3').hide();
+	$('#show-pork-side-ribs-4').hide();
+
+	$('#pork-side-ribs-1').css("opacity", "1");
+	$('#pork-side-ribs-2').css("opacity", ".5");
+	$('#pork-side-ribs-3').css("opacity", ".5");
+	$('#pork-side-ribs-4').css("opacity", ".5");
+});
+
+$('#pork-side-ribs-2').click(function() {
+	$('#show-pork-side-ribs-1').hide();
+	$('#show-pork-side-ribs-2').show();
+	$('#show-pork-side-ribs-3').hide();
+	$('#show-pork-side-ribs-4').hide();
+
+	$('#pork-side-ribs-1').css("opacity", ".5");
+	$('#pork-side-ribs-2').css("opacity", "1");
+	$('#pork-side-ribs-3').css("opacity", ".5");
+	$('#pork-side-ribs-4').css("opacity", ".5");
+});
+
+$('#pork-side-ribs-3').click(function() {
+	$('#show-pork-side-ribs-1').hide();
+	$('#show-pork-side-ribs-2').hide();
+	$('#show-pork-side-ribs-3').show();
+	$('#show-pork-side-ribs-4').hide();
+
+	$('#pork-side-ribs-1').css("opacity", ".5");
+	$('#pork-side-ribs-2').css("opacity", ".5");
+	$('#pork-side-ribs-3').css("opacity", "1");
+	$('#pork-side-ribs-4').css("opacity", ".5");
+});
+
+$('#pork-side-ribs-4').click(function() {
+	$('#show-pork-side-ribs-1').hide();
+	$('#show-pork-side-ribs-2').hide();
+	$('#show-pork-side-ribs-3').hide();
+	$('#show-pork-side-ribs-4').show();
+
+	$('#pork-side-ribs-1').css("opacity", ".5");
+	$('#pork-side-ribs-2').css("opacity", ".5");
+	$('#pork-side-ribs-3').css("opacity", ".5");
+	$('#pork-side-ribs-4').css("opacity", "1");
 });
 
 

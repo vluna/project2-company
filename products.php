@@ -13,9 +13,9 @@
 			<a href="product-detail-1.php"> <button class="button-view-product">View Product</button></a>
 		</div>
 		<div class="col-1of4">
-			<img class="product-listing-image" src="img/pork-loin.png" alt="Image of raw pork loin">
-			<h2>Pork Loin</h2>
-			<p>Pork loin is a cut of meat from a pig, created from the tissue along the top of the rib cage.</p>
+			<img class="product-listing-image" src="img/pork-side-ribs.png" alt="Image of raw pork side ribs">
+			<h2>Pork Side Ribs</h2>
+			<p>Pork ribs are very flavorful and when cooked their tenderness and juiciness cannot be beat.</p>
 			<a href="product-detail-2.php"> <button class="button-view-product">View Product</button></a>
 		</div>
 		<div class="col-1of4">
@@ -39,9 +39,9 @@
 			<a href="product-detail-1.php"> <button class="button-view-product">View Product</button></a>
 		</div>
 		<div class="col-1of4">
-			<img class="product-listing-image" src="img/pork-side-ribs.png" alt="Image of raw pork side ribs">
-			<h2>Pork Side Ribs</h2>
-			<p>Pork ribs are very flavorful and when cooked properly, their tenderness and juiciness cannot be beat.</p>
+			<img class="product-listing-image" src="img/pork-loin.png" alt="Image of raw pork loin">
+			<h2>Pork Loin</h2>
+			<p>Pork loin is a cut of meat from a pig, created from the tissue along the top of the rib cage.</p>
 			<a href="product-detail-2.php"> <button class="button-view-product">View Product</button></a>
 		</div>
 		<div class="col-1of4">

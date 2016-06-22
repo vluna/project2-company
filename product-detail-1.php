@@ -9,10 +9,10 @@
 	<h1> Pork Side Ribs </h1>
 	<div class="grid">
 		<div class="col-special-1of3">
-			<img class="product-detail-image" src="img/placeholder-home-image.png" alt="Image description">
-			<img class="product-detail-image-preview" src="img/placeholder-home-image.png" alt="Image description">
-			<img class="product-detail-image-preview" src="img/placeholder-home-image.png" alt="Image description">
-			<img class="product-detail-image-preview" src="img/placeholder-home-image.png" alt="Image description">
+			<img class="product-detail-image" src="img/pork-belly.png" alt="Image of raw pork belly">
+			<img class="product-detail-image-preview" src="img/pork-belly.png" alt="Image of raw pork belly">
+			<img class="product-detail-image-preview" src="img/pork-belly-1.png" alt="Image of cooked pork belly in squares">
+			<img class="product-detail-image-preview" src="img/pork-belly-2.png" alt="Image of cooked pork belly in ribs">
 		</div>
 		<div class="col-special-2of3">
 			<div class="product-detail-content">

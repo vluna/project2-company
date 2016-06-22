@@ -112,7 +112,7 @@ nav ul li:not(:first-child) {
     line-height: 2.5em;
 }
 
-nav ul li:nth-child(7) {
+nav ul li:nth-child(6) {
     float: right;
 }
 
@@ -185,6 +185,22 @@ nav ul li.menu-icon {
     padding-top: 2em;
     width: 70%;
     margin: 0 15%;
+}
+
+#home h1 {
+    padding-bottom: 1em;
+}
+
+#home p {
+    padding-top: 1em;
+}
+
+.autism-poster {
+    width: 20em;
+    height: auto;
+    margin: 0 1em;
+    margin-bottom: 1em;
+    float: left;
 }
 
 /*
@@ -261,19 +277,31 @@ nav ul li.menu-icon {
     padding-top: 2em;
 }
 
+#product-detail h1 {
+    margin-bottom: .5em;
+}
+
 .product-detail-image-preview {
     width: 3.2em;
     height: 3.2em;
+    cursor: pointer;
 }
 
 .product-detail-image {
-    width: 100%;
+    width: 90%;
     height: auto;
+    margin: 0 5%;
 }
 
 .product-detail-content {
     width: 100%;
-    padding: 0 1em;
+}
+
+.product-detail-content p:first-child {
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-bottom: .5em;
+
 }
 
 .product-detail-content > p {
@@ -632,6 +660,11 @@ footer {
         margin: 0 5%;
     }
 
+    #home {
+        width: 90%;
+        margin: 0 5%;
+    }
+
     #products {
         width: 90%;
         margin: 0 5%;
@@ -661,6 +694,10 @@ footer {
 
     .about-footer {
         margin-top: 1.5em;
+    }
+
+    .product-detail-content {
+        padding-top: 2em;
     }
 }
 
@@ -708,6 +745,15 @@ footer {
 
     .about-navbar li {
         display: block;
+    }
+}
+
+
+@media screen and (max-width: 31em) {
+    .autism-poster {
+        width: 100%;
+        margin: 0;
+        height: auto;
     }
 }
 

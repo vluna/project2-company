@@ -23,11 +23,11 @@
 	</div>
 	<div id="about-values">
 		<h3>Values</h3>
-		<p>Integrity - From the hogs we buy to our manufacturing process, each step of the way, we operate with integrity. We are proud of every little thing we do.
+		<p><strong>Integrity</strong> - From the hogs we buy to our manufacturing process, each step of the way, we operate with integrity. We are proud of every little thing we do.
 		Our people - We know that the key to success is having the right people in place to do the job. We simply couldn’t do it without the incredibly dedicated team at Vancouver Meats.</p>
-		<p> Quality - While life is about compromise, when it comes to quality, at Vancouver Meats we follow and abide by our strict guidelines! Staying true to our commitment to quality is one of our core mandates.</p>
-		<p>Innovation - While other manufacturers might be satisfied with sticking to the status quo, not us! At Vancouver Meats, we’re not afraid of trying something new to find the best possible way of doing things.</p>
-		<p> Customers - We consider each and every customer a part of the Vancouver Meats family - you are the lifeblood of our business and we strive each and every day to bring you the best of the best.</p>
+		<p> <strong>Quality</strong> - While life is about compromise, when it comes to quality, at Vancouver Meats we follow and abide by our strict guidelines! Staying true to our commitment to quality is one of our core mandates.</p>
+		<p><strong>Innovation</strong> - While other manufacturers might be satisfied with sticking to the status quo, not us! At Vancouver Meats, we’re not afraid of trying something new to find the best possible way of doing things.</p>
+		<p> <strong>Customers</strong> - We consider each and every customer a part of the Vancouver Meats family - you are the lifeblood of our business and we strive each and every day to bring you the best of the best.</p>
 	</div>
 	<div id="about-producer">
 		<h3>Producer</h3>

@@ -12,7 +12,14 @@
 
 <section id="home">
 	<h1> News &amp; Events </h1>
-	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+	
+	<img class="autism-poster" src="img/autism-poster.jpg" alt="Image of the autism poster for the 4th annual charity BBQ">
+
+	<h2>4th Annual Elite Meat Charity BBQ</h2>
+	<p>Our 4th Annual Elite Meat Autism Charity BBQ is on Sunday June 19th from 1-8pm in support of Autism Ontario - Durham Region. This event will be a part of the Ajax Home Week Waterfront Festival.</p>
+	<p>My son’s diagnosis when he was 2 ½ had opened our eyes to the struggles families face in this province. The amazing people we met over the years, their stories and tears prompted us to do more. To date we have raised over $35,000! We could not have done this without your support. All funds raised are donated to Autism Ontario - Durham Region so that they can provide families with support and services for their family members with Autism. Our support for this cause is needed now more than ever. Autism rates are at an all time high of 1 in 68 children born, according to the CDC. Current funding structures means families do not have the support they need across the lifespan.</p>
+	<p>We have been asked by friends, colleagues, suppliers and family to offer an online donation option. Many would like to donate, but are unable to make it out to the event. </p>
+	<p>Thank you for your support!</p>
 </section>
 <?php
 	include ("includes/footer.html");

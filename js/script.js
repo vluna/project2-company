@@ -28,12 +28,14 @@ function triggerAboutNav() {
 	document.getElementsByClassName("about-navbar")[0].classList.toggle("responsive");
 }
 
-$('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 500);
-    return false;
+$('#submit-order').click(function(){
+	if (window.confirm('Are you sure you want to submit?')) {
+		window.location = '../index.php';
+	}
+
 });
+
+
 
 $('#pork-belly-1').click(function() {
 	$('#show-pork-belly-1').show();

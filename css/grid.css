@@ -26,6 +26,10 @@
 	width: 50%;
 }
 
+.col-1of2-in {
+	width: 50%;
+}
+
 .col-1of3 {
 	width: 33.3%;
 }
@@ -66,6 +70,14 @@
 
 @media screen and (max-width: 48.5em) {
 	.col-1of2 {
+		width: 100%;
+	}
+
+	.col-1of3 {
+		width: 100%;
+	}
+
+	.col-2of3 {
 		width: 100%;
 	}
 }

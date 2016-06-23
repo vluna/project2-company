@@ -11,11 +11,11 @@
             <div class="container-content">
                 <div id="form-div">
                     <form method="post" action="">
-                        <input name="name" type="text" class="input-field" placeholder="Name" id="name" required>
+                        <input name="name" type="text" class="input-field" placeholder="Name" id="name">
 
-                        <input name="email" type="email" class="input-field" id="email" placeholder="Email" required>
+                        <input name="email" type="email" class="input-field" id="email" placeholder="Email">
 
-                        <textarea name="message" class="textarea-field" id="comment" placeholder="Comment" required></textarea>
+                        <textarea name="message" class="textarea-field" id="comment" placeholder="Comment"></textarea>
 
                         <input type="submit" name="submit" value="SEND MESSAGE" class="button-submit">
                     </form>

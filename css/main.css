@@ -391,6 +391,106 @@ nav ul li.menu-icon {
     margin: 0 15%;
 }
 
+#cart h1 {
+    margin-bottom: .5em;
+}
+
+#cart h3 {
+    text-align: center;
+}
+
+.checkout-item {
+    padding: 1em 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#cart .input-field {
+    width: 4em;
+    text-align: center;
+    margin: 0;
+    margin-top: .5em;
+}
+
+#cart .input-field {
+    width: 7em;
+    text-align: center;
+    margin: 0;
+    margin-top: .5em;
+}
+
+#cart p {
+    text-align: center;
+}
+
+.total-price{
+    margin: 1em 0;
+}
+
+#cart .button-submit {
+    width: 50%;
+    margin: 0 25%;
+}
+
+/*
+==============================================
+================== CHECKOUT ===================
+==============================================
+*/
+#checkout {
+    padding-top: 2em;
+    width: 80%;
+    margin: 0 10%;
+}
+
+#checkout h1 {
+    padding-bottom: .5em;
+}
+
+#checkout input {
+    margin: .1em 0;
+    width: 100%;
+}
+
+#checkout input:nth-child(1) {
+    width: 50%;
+    float: left;
+}
+
+#checkout input:nth-child(2) {
+    width: 50%;
+}
+
+#checkout input:nth-child(6) {
+    width: 50%;
+    float: left;
+}
+
+#checkout input:nth-child(7) {
+    width: 50%;
+}
+
+#checkout input:nth-child(8) {
+    width: 50%;
+    float: left;
+}
+
+#checkout input:nth-child(9) {
+    width: 50%;
+}
+
+.order-summary {
+    padding-left: 2em !important;
+}
+
+.order-summary h3, .order-summary input {
+    text-align: center;
+}
+
+#checkout input:nth-child(10) {
+    width: 20%;
+}
+
 /*
 ==============================================
 ================== CONTACT ===================
@@ -679,6 +779,11 @@ footer {
         width: 90%;
         margin: 0 5%;
     }
+
+    #checkout {
+        width: 90%;
+        margin: 0 5%;
+    }
 }
 
 @media screen and (max-width: 48.5em) {
@@ -698,6 +803,11 @@ footer {
 
     .product-detail-content {
         padding-top: 2em;
+    }
+
+
+    #cart .product-detail-image {
+        margin-bottom: 1em;
     }
 }
 

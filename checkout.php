@@ -4,6 +4,19 @@
 	include ("includes/header.html");
 ?>
 <section id="checkout">
+    <div id="modal">
+        <div class="modal-content">  
+            <img src="img/icon/checkmark.png" width="45" height="45" alt="Green chemark indicating that the process was completed" class="checkmark-icon">
+            <h2> Your order has been placed! </h2>
+            <p>Thank you for contacting Vancouver Meats. We will get back to you shoortly. Meanwhile, please keep in touch with our social medias.</p>
+            <div class="social-media-icons">
+                <img src="img/icon/facebook-letter.png" width="15" height="25" alt="Facebook social media icon image">
+                <img src="img/icon/twitter-logo.png" width="26" height="26" alt="Twitter social media icon image">
+                <img src="img/icon/instagram-logo.png" width="26" height="26" alt="Instagram social media icon image">
+            </div>
+            <input name="submit" value="CLOSE" class="button-submit close">
+        </div>
+    </div>
 	<h1> Checkout </h1>
 	<div class="grid">
 		<div class="col-1of2">
@@ -65,7 +78,7 @@
                 	<input name="security-number" type="text" class="input-field"> 
                 </div>
 
-                <input id="submit-order" type="submit" name="submit" value="SUBMIT ORDER" class="button-submit">
+                <input id="close-button" name="submit" value="SUBMIT ORDER" class="button-submit">
             </form>
 		</div>
 		<div class="col-1of2 order-summary">

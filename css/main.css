@@ -143,6 +143,45 @@ nav ul li.menu-icon {
     display: none;
 }
 
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
 /*
 ==============================================
 ==================== HOME ====================
@@ -231,9 +270,14 @@ nav ul li.menu-icon {
     height: auto;
 }
 
+#products .button-view-product {
+    margin: 1em 10%;
+}
+
 .button-view-product {
     width: 80%;
-    margin: 1em 10%;
+    margin: 1em 0;
+    float: left;
     border: #2f3540 solid 2px;
     cursor: pointer;
     background-color: white;
@@ -297,25 +341,25 @@ nav ul li.menu-icon {
     width: 100%;
 }
 
-.product-detail-content p:first-child {
-    font-weight: 900;
-    letter-spacing: 1px;
-    padding-bottom: .5em;
-
-}
-
 .product-detail-content > p {
     padding-bottom: 1em;
 }
 
-.product-price {
-    font-weight: 700;
-    text-align: right;
+.price-cart {
+    padding: .71em 0;
+}
+
+.price-checkout {
+    padding: .5em 0;
 }
 
 .order-product {
     border: 2px solid gray;
     padding: 1em;
+}
+
+#product-detail h3 {
+    font-weight: 700;
 }
 
 .order-product:hover {
@@ -327,58 +371,89 @@ nav ul li.menu-icon {
 =================== ABOUT ====================
 ==============================================
 */
-#about {
-    padding-top: 2em;
+#about-overview {
+    background: url(../img/farm.jpg) no-repeat center center fixed;
+    height: auto;
+    margin: 0 auto;
+    background-size: cover;
+    width: 100%;
+    padding: 1em 0;
+}
+
+.about-overview-section {
+    padding: 2em 0;
+    width: 70%;
+    margin: 0 15%;
+    color: white;
+}
+
+.about-overview-section p {
+    padding-top: 1em;
+} 
+
+.about-overview-section h2 {
+    text-align: center;
+} 
+
+#about-values {
+    padding: 1em 0;
+}
+
+.about-values-section {
+    padding: 2em 0;
     width: 70%;
     margin: 0 15%;
 }
 
-#about p {
+.about-values-section p {
     padding-top: 1em;
-}
+} 
 
-.about-navbar {
+.about-values-section h2 {
     text-align: center;
-    list-style-type: none;
-    float: left;
+} 
+
+#about-producer {
+    background: url(../img/producer.jpg) no-repeat center center fixed;
+    height: auto;
+    margin: 0 auto;
+    background-size: cover;
     width: 100%;
-    margin-top: 1em;
-    background: #742238;
+    padding: 1em 0;
+}
+
+.about-producer-section {
+    padding: 2em 0;
+    width: 70%;
+    margin: 0 15%;
     color: white;
-    padding: 1em;
 }
 
-.about-navbar li {
-    display: inline;
-    padding: 1em;
-    cursor: pointer;
-    -webkit-transition: 0.5s;
-    -mos-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-}
+.about-producer-section p {
+    padding-top: 1em;
+} 
 
-.about-navbar li:hover {
-    background-color: #b03456;
-    -webkit-transition: 0.5s;
-    -mos-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-}
-
-#about h3 {
+.about-producer-section h2 {
     text-align: center;
-    padding-top: 4em;
-    font-weight: 700;
+} 
+
+#about-facilities {
+    padding: 1em 0;
 }
 
-#about a {
-    color: white;
+.about-facilities-section {
+    padding: 2em 0;
+    width: 70%;
+    margin: 0 15%;
 }
 
-#about a:hover {
-    color: white;
-}
+.about-facilities-section p {
+    padding-top: 1em;
+} 
+
+.about-facilities-section h2 {
+    text-align: center;
+} 
 
 /*
 ==============================================
@@ -403,6 +478,11 @@ nav ul li.menu-icon {
     padding: 1em 0;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+}
+
+label {
+    float: left;
+    padding-top: .5em;
 }
 
 #cart .input-field {
@@ -460,6 +540,10 @@ nav ul li.menu-icon {
     text-align: center;
 }
 
+.order-summary .title-order-summary {
+    text-align: left;
+}
+
 .credit-card-title {
     padding-top: 1em;
 }
@@ -485,7 +569,7 @@ nav ul li.menu-icon {
     font-size: 1em;
     background-color: #ededed;
     padding: .7em;
-    margin-top: .7em;
+    margin: 0;
     width: 95%;
     margin-right: 5%;
     -webkit-box-sizing: border-box;
@@ -519,7 +603,7 @@ nav ul li.menu-icon {
     background-color: #ededed;
     padding: .7em;
     width: 95%;
-    margin-top: .7em;
+    margin: 0;
     margin-right: 5%;
     height: 6em;
     resize:vertical;
@@ -549,7 +633,8 @@ nav ul li.menu-icon {
 
 .button-submit {
     width: 70%;
-    margin: 1em 10%;
+    float: left;
+    margin: 1em 0;
     border: #2f3540 solid 2px;
     cursor: pointer;
     background-color: white;
@@ -752,6 +837,26 @@ footer {
         margin: 0 5%;
     }
 
+    .about-overview-section {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .about-values-section {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .about-producer-section {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .about-facilities-section {
+        width: 90%;
+        margin: 0 5%;
+    }
+
     .footer-section {
         width: 90%;
         margin: 0 5%;
@@ -837,6 +942,14 @@ footer {
 
     .about-navbar li {
         display: block;
+    }
+
+    nav ul.navbar.responsive li:first-child {
+        float: left;
+    }
+
+    nav ul.navbar.responsive li:nth-child(2) > a {
+        margin-top: 3.8em;
     }
 }
 

@@ -23,12 +23,12 @@
 		</div>
 		<div class="col-1of2">
 			<div class="product-detail-content">
-				<p> DESCRIPTION </p>
+				<h2> DESCRIPTION </h2>
 				<p>The pork belly delivers popular favourites such as bacon, pancetta and braised belly. You can also get premium fresh belly cuts, offering a mouth watering blend of lean and marbled layers of meat.</p>
 
 				<p>Pork belly provides you will endless applications. The perfect balance of fat and lean provide ideal taste and texture regardless if you are curing your own in-house bacon or creating your own recipe or menu item. Our All-Natural attributes and Hampshire breed quality provides you with added consistency to make any recipe come to life. The skin is left on for added taste and a crispy exterior. If you have yet to adopt this culinary mainstay, it's time you should.</p>
 			</div>
-			<p class="product-price">C$7.28/kg</p>
+			<h3>C$7.28/kg</h3>
 			<a href="cart.php"> <button class="button-view-product">Add To Cart</button></a>
 		</div>
 	</div>	

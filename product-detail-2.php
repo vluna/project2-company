@@ -23,12 +23,12 @@
 		</div>
 		<div class="col-1of2">
 			<div class="product-detail-content">
-				<p> DESCRIPTION </p>
+				<h2> DESCRIPTION </h2>
 				<p>Pork side ribs are very flavorful and when cooked properly, their tenderness and juiciness can’t be beat. This versatile cut can be cooked various ways – grilled, barbecued, smoked or oven baked.</p>
 
 				<p>Pork side ribs are less meaty and less expensive than back ribs. The cut doesn't include the upper rib area (e.g. the parts of the rib that are up in the back of the pig), but rather the sides and down into the belly. </p>
 			</div>
-			<p class="product-price">C$7.28/kg</p>
+			<h3>C$7.28/kg</h3>
 			<a href="cart.php"> <button class="button-view-product">Add To Cart</button></a>
 		</div>
 	</div>	

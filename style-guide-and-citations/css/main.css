@@ -187,7 +187,7 @@ section code {
 .button-nav {
     width: 20%;
     cursor: pointer;
-    background-color: #2f3540;
+    background-color: #742238;
     color: white;
     font-size: 1em;
     padding: 1em;
@@ -201,7 +201,7 @@ section code {
 .button-nav:hover {
     text-decoration: none;
     cursor: pointer;
-    background-color: #6d7179;
+    background-color: #b03456;
     color: white;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -211,7 +211,7 @@ section code {
 
 .button-default {
     width: 20%;
-    border: #742238 solid 2px;
+    border: #2f3540 solid 2px;
     cursor: pointer;
     background-color: white;
     color: #2f3540;
@@ -234,7 +234,7 @@ section code {
 .button-default:hover {
     text-decoration: none;
     cursor: pointer;
-    background-color: #742238;
+    background-color: #2f3540;
     color: white;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -277,7 +277,7 @@ section code {
 .input-field:focus, .input-field:hover {
     background-color: #fff;
     box-shadow: none;
-    border: .2em solid #742238;
+    border: .2em solid #2f3540;
     color: #6b6b6b;
     outline: none;
     -webkit-transition: all .3s ease-in-out;
@@ -310,7 +310,7 @@ section code {
 .textarea-field:focus, .textarea-field:hover {
     background-color: #fff;
     box-shadow: none;
-    border: .2em solid #742238;
+    border: .2em solid #2f3540;
     color: #6b6b6b;
     outline: none;
     -webkit-transition: all .3s ease-in-out;
@@ -343,7 +343,7 @@ section code {
 .search-field:focus, .search-field:hover {
     background-color: #fff;
     box-shadow: none;
-    border: .2em solid #742238;
+    border: .2em solid #2f3540;
     color: #6b6b6b;
     outline: none;
     -webkit-transition: all .3s ease-in-out;
@@ -421,7 +421,7 @@ section code {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2f3540;
+    background-color: #742238;
 }
 
 .main-navigation ul li {
@@ -446,7 +446,7 @@ section code {
 }
 
 .main-navigation ul li a:hover {
-    background-color: #6d7179;
+    background-color: #b03456;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -483,7 +483,33 @@ section code {
 #fonts {
     width: 80%;
     background: #fff;
-    padding-top: 10px;
+    padding-top: 30px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/* 
+===================================================
+================ CONTENT SECTION ==================
+===================================================
+*/
+#content {
+    width: 80%;
+    background: #fff;
+    padding-top: 30px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/* 
+===================================================
+================ IMAGERY SECTION ==================
+===================================================
+*/
+#images {
+    width: 80%;
+    background: #fff;
+    padding-top: 30px;
     margin-right: 10%;
     margin-left: 10%;
 }
@@ -651,4 +677,47 @@ footer .glyphicon {
     .button-default {
         width: 50%
     }
+}
+
+.button-view-product {
+    width: 80%;
+    margin: 1em 10%;
+    border: #2f3540 solid 2px;
+    cursor: pointer;
+    background-color: white;
+    color: #2f3540;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.button-view-product:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #2f3540;
+    color: white;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.product-listing-image {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2.5em;
+    width: 90%;
+    height: auto;
 }

@@ -29,7 +29,9 @@
 				<p>Pork side ribs are less meaty and less expensive than back ribs. The cut doesn't include the upper rib area (e.g. the parts of the rib that are up in the back of the pig), but rather the sides and down into the belly. </p>
 			</div>
 			<h3>C$7.28/kg</h3>
-			<a href="cart.php"> <button class="button-view-product">Add To Cart</button></a>
+			<form action="cart.php"> 
+				<button class="button-view-product">Add To Cart</button>
+			</form>
 		</div>
 	</div>	
 </section>

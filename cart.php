@@ -25,7 +25,9 @@
 	</div>
 
 	<h3 class="total-price"> Total C$10.87 </h3>
-	<a href="checkout.php"><input type="submit" name="submit" value="CHECKOUT" class="button-submit"></a>
+	<form action="checkout.php">
+		<button class="button-submit">CHECKOUT</button>
+	</form>
 </section>
 <?php
 	include ("includes/footer.html");

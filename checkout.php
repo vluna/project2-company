@@ -22,7 +22,7 @@
 	<div class="grid">
 		<div class="col-1of2">
 			<h2> Shipping Information </h2>
-            <form method="post" action="">
+            <form>
                 <div class="col-1of2-in">
                     <label>*First Name</label>
                 	<input name="first-name" type="text" class="input-field">

@@ -25,7 +25,7 @@
         <div class="col-1of2">
             <div class="container-content">
                 <div id="form-div">
-                    <form method="post" action="">
+                    <form>
                         <label>*Name</label>
                         <input name="name" type="text" class="input-field">
 

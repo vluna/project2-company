@@ -29,7 +29,9 @@
 				<p>Pork belly provides you will endless applications. The perfect balance of fat and lean provide ideal taste and texture regardless if you are curing your own in-house bacon or creating your own recipe or menu item. Our All-Natural attributes and Hampshire breed quality provides you with added consistency to make any recipe come to life. The skin is left on for added taste and a crispy exterior. If you have yet to adopt this culinary mainstay, it's time you should.</p>
 			</div>
 			<h3>C$7.28/kg</h3>
-			<a href="cart.php"> <button class="button-view-product">Add To Cart</button></a>
+			<form action="cart.php"> 
+				<button class="button-view-product">Add To Cart</button>
+			</form>
 		</div>
 	</div>	
 </section>

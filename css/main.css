@@ -118,6 +118,11 @@ a:active, a:focus {
     margin: 0 25%;
 }
 
+.order-button {
+    margin: 2em 0 !important;
+}
+
+
 .checkmark-icon {
     float: left;
 }
@@ -881,6 +886,11 @@ footer {
     }
 
     #contact {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    #cart {
         width: 90%;
         margin: 0 5%;
     }

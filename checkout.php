@@ -79,7 +79,7 @@
                 	<input name="security-number" type="text" class="input-field"> 
                 </div>
 
-                <input id="close-button" name="submit" value="SUBMIT ORDER" class="button-submit">
+                <input id="close-button" name="submit" value="SUBMIT ORDER" class="button-submit order-button">
             </form>
 		</div>
 		<div class="col-1of2 order-summary">

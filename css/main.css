@@ -859,9 +859,8 @@ footer {
 
 @media screen and (max-width:58em) {
     .landing-page-quote {
-        width: 90%;
-        margin-right: 5%;
-        margin-left: 5%;
+        width: 85%;
+        margin: 0 7.5%;
     }
 }
 
@@ -871,58 +870,58 @@ footer {
     }
 
     #about {
-        width: 90%;
-        margin: 0 5%;
+        width: 85%;
+        margin: 0 7.5%;
     }
 
     #home {
-        width: 90%;
-        margin: 0 5%;
+        width: 85%;
+        margin: 0 7.5%;
     }
 
     #products {
-        width: 90%;
-        margin: 0 5%;
+        width: 85%;
+        margin: 0 7.5%;
     }
 
     #contact {
-        width: 90%;
-        margin: 0 5%;
+        width: 85%;
+        margin: 0 7.5%;
     }
 
     #cart {
-        width: 90%;
-        margin: 0 5%;
+        width: 85%;
+        margin: 0 7.5%;
     }
 
     .about-overview-section {
-        width: 90%;
-        margin: 0 5%;
+        width: 85%;
+        margin: 0 7.5%;
     }
 
     .about-values-section {
-        width: 90%;
-        margin: 0 5%;
+        width: 85%;
+        margin: 0 7.5%;
     }
 
     .about-producer-section {
-        width: 90%;
-        margin: 0 5%;
+        width: 85%;
+        margin: 0 7.5%;
     }
 
     .about-facilities-section {
-        width: 90%;
-        margin: 0 5%;
+        width: 85%;
+        margin: 0 7.5%;
     }
 
     .footer-section {
-        width: 90%;
-        margin: 0 5%;
+        width: 85%;
+        margin: 0 7.5%;
     }
 
     #checkout {
-        width: 90%;
-        margin: 0 5%;
+        width: 85%;
+        margin: 0 7.5%;
     }
 }
 

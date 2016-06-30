@@ -8,8 +8,6 @@
 		<h2>Overview</h2>
 		<p>Are you looking for healthy and delicious meat products? Uncompromised quality and food safety? A producer that values every step of hog production and puts great emphasis on animal welfare and environmental standards? If so, you have come to the right place!</p>
 		<p>At Vancouver Meats, our Canadian Quality Assurance (CQA) accredited producers take great pride in how they raise their pigs - we do things the traditional way! Absolutely no use of the common feed additive Ractopamine and minimal use of antibiotics. In fact, as per the Canadian Food Inspection Agency’s (CFIA) standards, there are no regulatory antibiotic residues found in any of our premium pork products.</p>
-		<p>Our processing facilities are HACCP (Hazard Analysis and Critical Control Points) accredited, federally inspected, and British Retail Consortium (BRC) certified - we follow processing and handling rules to a tee. We have invested heavily in state of the art packaging and refrigeration, allowing us to offer consistent extended shelf life to both our local and international customers.
-		<p> We maintain the strictest of quality control standards so that you can purchase our meat products with the utmost confidence. With Vancouver Meats, enjoy a ‘from the farm to the plate’ meat experience.</p>
 	</div>
 </section>
 
@@ -30,8 +28,6 @@
 		<p>We can't produce great meat products without great partners. We will only purchase from producers who are accredited under the Canadian Quality Assurance (CQA) program for hogs and cattle, the on-farm food safety program for Canadian hog and cattle producers.</p>
 
 		<p>Producers must not only commit to raise hogs and cattle that meet our quality standards, but they must also agree to adhere to our hog production and animal welfare policies. We have established strict feeding guidelines that all our producers must follow - not only does this make for healthier pigs and cattle, it makes for great tasting pork and beef!</p>
-
-		<p>Our proprietary "trace back" system gives all of our producers online access to extensive reports that assess the quality of their hogs and cattle. This program is the backbone of our progressive improvement initiative, and it gives us the ability to guarantee that our pork and beef products are not only great tasting, but were produced with a ‘farm to fork’ commitment to quality.</p>
 	</div>
 </section>
 
@@ -42,9 +38,7 @@
 
 		<p>We have set up strict protocols that are over and above any industry standard, all closely monitored by our Quality Assurance Department. At Vancouver Meats, we live and breathe rigorous manufacturing practices. That’s just how we roll!</p>
 
-		<p>We use state of the art equipment and processes to deliver the quality you have come to rely on. From exact weight slicing technology to built-in, intermittent on-line sanitizers; fixed weight grinding technology to advanced carcass chilling systems - it’s all the best of the best! Our top-notch refrigeration systems keep our products fresh and safe. This commitment to new technology echoes one of our core values - use innovation to find a better way to do things. At Vancouver Meats, we’re definitely not about following the crowd.</p>
-
-		<p>What this all means for you is that anytime you purchase a Vancouver Meats Premium meat product, you’re getting a quality cut of meat each and every time. Enjoy the best of food safety paired with a great shelf life.</p>
+		<p>Anytime you purchase a Vancouver Meats Premium meat product, you’re getting a quality cut of meat each and every time. Enjoy the best of food safety paired with a great shelf life.</p>
 	</div>
 </section>
 

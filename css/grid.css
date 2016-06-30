@@ -66,9 +66,13 @@
 	width: 20em;
 }
 
-@media screen and (max-width: 62.5em) {
+@media screen and (max-width: 58em) {
 	.col-1of4 {
 		width: 50%;
+	}
+
+	.clearing-col {
+		clear: both;
 	}
 }
 
@@ -86,7 +90,7 @@
 	}
 }
 
-@media screen and (max-width: 37.5em) {
+@media screen and (max-width: 30em) {
 	.col-1of4 {
 		width: 100%;
 	}
